@@ -1,0 +1,18 @@
+ul {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
